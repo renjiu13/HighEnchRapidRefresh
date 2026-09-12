@@ -28,5 +28,5 @@ processResources {
 }
 
 tasks.withType(JavaCompile).configureEach { options.release = 17; options.encoding = 'UTF-8' }
-java { toolchain.languageVersion = JavaLanguageVersion.of(17); withSourcesJar() }
+java { toolchain.languageVersion = JavaLanguageVersion.of(21); withSourcesJar() }
 base { archivesName = project.archives_base_name }
