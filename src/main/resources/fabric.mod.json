@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "mod_6854d293",
+  "version": "${version}",
+  "name": "图书管理员高等级附魔书",
+  "description": "让图书管理员更容易拿到高等级附魔书：刷新出的附魔书直接生成该附魔允许的最高等级（四级/五级优先）。附魔种类仍全随机，价格、库存与原版每日两次自动刷新机制全部保留，反馈直接看原版交易界面。",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.blockforge.generated.mod6854d293.GeneratedMod"
+    ]
+  },
+  "mixins": [
+    "mod_6854d293.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
