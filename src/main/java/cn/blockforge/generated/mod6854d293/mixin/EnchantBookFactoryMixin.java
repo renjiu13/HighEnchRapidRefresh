@@ -53,7 +53,7 @@ public class EnchantBookFactoryMixin {
         cappedBuy.setCount(19);
         cir.setReturnValue(new TradeOffer(
             cappedBuy,
-            original.getSecondBuyItem().orElse(ItemStack.EMPTY),
+            original.getSecondBuyItem(),
             original.getSellItem(),
             original.getUses(),
             original.getMaxUses(),
